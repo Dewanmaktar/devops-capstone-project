@@ -1,8 +1,8 @@
 from flask import Flask
-from service.routes import app as service_app
+from service.routes import app as routes
 
 app = Flask(__name__)
-app.register_blueprint(service_app)
+app.register_blueprint(routes)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
