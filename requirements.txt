@@ -1,0 +1,7 @@
+flask
+flask-cors
+gunicorn
+nose
+flake8
+pylint
+psycopg2-binary
